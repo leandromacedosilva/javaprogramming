@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Sum {
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner();
+		Scanner input = new Scanner(System.in);
 
 		double valueNote1;
 		double valueNote2;
@@ -22,6 +22,8 @@ public class Sum {
 
 		System.out.println("informe o quarto valor: ");
 		valueNote4 = input.nextDouble();
+
+		System.out.println("Soma das notas: " + (valueNote1 + valueNote2 + valueNote3 + valueNote4));
 
 		System.exit(0);
 	}
