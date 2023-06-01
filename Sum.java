@@ -1,15 +1,15 @@
 
-import java.util.Sacnner;
+import java.util.Scanner;
 
 public class Sum {
 	public static void main(String[] args) {
+
+		Scanner input = new Scanner();
 
 		double valueNote1;
 		double valueNote2;
 		double valueNote3;
 		double valueNote4;
-
-		Scanner input = new Scanner();
 
 		System.out.println("informe o primeiro valor: ");
 		valueNote1 = input.nextDouble();
