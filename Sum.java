@@ -23,7 +23,16 @@ public class Sum {
 		System.out.println("informe o quarto valor: ");
 		valueNote4 = input.nextDouble();
 
-		System.out.println("Soma das notas: " + (valueNote1 + valueNote2 + valueNote3 + valueNote4));
+		if((valueNote1 + valueNote2 + valueNote3 + valueNote4) >= 6){
+			System.out.println("Soma das notas: " + (valueNote1 + valueNote2 + valueNote3 + valueNote4));
+			System.out.println("Media das notas: " + (valueNote1 + valueNote2 + valueNote3 + valueNote4) / 4);
+			System.out.println("De acordo com as informacoes acima, voce esta aprovado!");
+		}
+		else{
+			System.out.println("Soma das notas: " + (valueNote1 + valueNote2 + valueNote3 + valueNote4));
+			System.out.println("Media das notas: " + (valueNote1 + valueNote2 + valueNote3 + valueNote4) / 4);
+			System.out.println("De acordo com as informacoes acima, voce esta reprovado!");
+		}
 
 		System.exit(0);
 	}
